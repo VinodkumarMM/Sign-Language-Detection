@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Sign Language Recognition</h1>
+            <p class="tagline">"Where Hands Speak Louder Than Words."</p>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>Empowering Communication Through AI</h2>
+        <img src="static\images\sign-language-hero.webp" alt="Sign Language" class="hero-img">
+        <p>Upload an image of a hand sign, and let our AI recognize it instantly!</p>
+        <form action="/predict" method="post" enctype="multipart/form-data" class="upload-form">
+            <input type="file" name="file" accept="image/*" required>
+            <button type="submit">Upload & Predict</button>
+        </form>
+    </section>
+
+    <section class="about">
+        <h2>Why Sign Language Matters</h2>
+        <p>
+            Sign language bridges communication gaps for millions of people worldwide. It's not just a means of communication—it's a rich, expressive language that brings inclusion and understanding.
+        </p>
+        <img src="static\images\Infographic Sign Language benefits 2.webp" alt="Importance of Sign Language" class="info-img">
+    </section>
+
+    <section class="news">
+        <h2>Latest News in Sign Language Recognition</h2>
+        <ul>
+            <li><strong>April 2025:</strong> AI breakthroughs improve recognition accuracy for rare hand signs!</li>
+            <li><strong>March 2025:</strong> UNESCO highlights Sign Language inclusion in global tech summits.</li>
+            <li><strong>February 2025:</strong> Researchers introduce real-time Sign Language translators using deep learning.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Sign Language Recognition | Breaking Barriers, Building Connections.</p>
+    </footer>
+
+</body>
+</html>
