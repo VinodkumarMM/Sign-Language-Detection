@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px 20px;
+}
+
+.header-content h1 {
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Hero Section */
+.hero {
+    padding: 40px 20px;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.upload-form {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    margin: 15px 0;
+}
+
+button {
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #6a11cb;
+}
+
+/* About Section */
+.about {
+    background: #fff;
+    color: #333;
+    padding: 40px 20px;
+    border-radius: 20px;
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.info-img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+/* News Section */
+.news {
+    padding: 30px 20px;
+}
+
+.news ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news li {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 15px;
+    max-width: 600px;
+    text-align: left;
+}
+
+/* Result Page Styles */
+.result {
+    padding: 40px 20px;
+}
+
+.preview-img {
+    max-width: 100%;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+}
+
+.prediction {
+    font-size: 2rem;
+    color: #2575fc;
+    background: #fff;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+.upload-again {
+    display: inline-block;
+    margin-top: 20px;
+    background: #6a11cb;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.upload-again:hover {
+    background: #2575fc;
+}
+
+/* Info Section on Result Page */
+.info {
+    background: #fff;
+    color: #333;
+    padding: 40px 20px;
+    margin: 30px auto;
+    border-radius: 20px;
+    max-width: 800px;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
